@@ -6,3 +6,41 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+
+body {
+    background: var(--bg-color) url(../assets/fundo.svg) no-repeat top center/cover;
+    padding-block: 3.25rem;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+main {
+    width: fit-content;
+    margin-inline: auto;
+}
+
+h2 {
+    border: 1px solid var(--card-title-border-color);
+    color: var(--card-color-primary);
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+    gap: 1rem;
+    border-radius: 6px;
+    margin-bottom: 3.25rem;
+}
+
+span {
+    color: #FFFFFF;
+    font-size: .875rem;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+    width: 100%;
+}
